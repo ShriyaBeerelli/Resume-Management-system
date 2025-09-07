@@ -1,0 +1,31 @@
+{
+  "name": "Resumator",
+  "version": "0.0.1",
+  "description": "Job applicant Resume Management System",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "main": "server.js",
+  "author": "Geeksphere Labs",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "html-pdf": "*",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pug": "^2.0.3",
+    "swagger-ui-express": "^3.0.10",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-filenames": "^4.0.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
